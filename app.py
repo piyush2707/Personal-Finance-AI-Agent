@@ -20,7 +20,7 @@ with st.sidebar:
     if api_key:
         genai.configure(api_key=api_key)
 
-uploaded_file = st.file_uploader("Upload your Bank Statement (CSV)", type=["csv"])
+uploaded_file = st.file_uploader("Upload your Bank Statement (CSV)", type=["csv"]) 
 
 
 if uploaded_file is not None:
